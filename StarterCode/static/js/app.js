@@ -21,3 +21,6 @@ cell.text(value);
     });
    
 });
+// select the button for referencing 
+var button = d3.select("#filter-btn");
+
