@@ -34,4 +34,9 @@ var dataTime = d3.select("#datetime").property("value");
 
 console.log(dateTime);
 })
+//filter the inpute datatime
+var filteredData = tableData.filter(ufoSightings => ufoSightings.dataTime === dataTime);
+
+
+
 
