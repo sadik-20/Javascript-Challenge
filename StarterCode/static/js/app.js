@@ -29,6 +29,9 @@ button.on("click", function(){
 d3.select("tbody").html("")
 // prevent the page from refreshing
 d3.event.preventDefault();
+//get the value property of the input element
+var dataTime = d3.select("#datetime").property("value");
 
+console.log(dateTime);
 })
 
