@@ -23,4 +23,8 @@ cell.text(value);
 });
 // select the button for referencing 
 var button = d3.select("#filter-btn");
+// Create event handlers
+button.on("click", function(){
+    
+})
 
