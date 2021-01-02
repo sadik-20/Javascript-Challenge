@@ -34,8 +34,13 @@ var dataTime = d3.select("#datetime").property("value");
 
 console.log(dateTime);
 })
-//filter the inpute datatime
+//filter the inpute datetime
 var filteredData = tableData.filter(ufoSightings => ufoSightings.dataTime === dataTime);
+console.log(filteredData);
+//appending one table row "tr" element for each filtered object
+filteredData.forEach((ufoSightings) => {
+var row = tbody.append('tr');
+})
 
 
 
