@@ -40,6 +40,12 @@ console.log(filteredData);
 //appending one table row "tr" element for each filtered object
 filteredData.forEach((ufoSightings) => {
 var row = tbody.append('tr');
+Object.entries(ufoSightings).forEach(([key, value]) =>{
+console.log(key, value);
+// append a cell 'td' element to the row for each value
+var cell = row.append ('td');
+
+})
 })
 
 
