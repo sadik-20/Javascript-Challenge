@@ -25,6 +25,10 @@ cell.text(value);
 var button = d3.select("#filter-btn");
 // Create event handlers
 button.on("click", function(){
-    
+//remove the exisiting table
+d3.select("tbody").html("")
+// prevent the page from refreshing
+d3.event.preventDefault();
+
 })
 
